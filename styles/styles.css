@@ -7,10 +7,54 @@
     font-family: 'Nunito', sans-serif;
 }
 
-body {
+html, body {
     background: whitesmoke;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background: url("../assets/Background.png");
 }
 
+#container {
+    min-height: 100%;
+    background-color: #38B6FF;
+    height: 2000px;
+}
+
+#main {
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+/*
+-------------------
+    FOOTER
+-------------------
+*/
+
+#footer {
+    background: white;
+    border-top: #38B6FF solid 1px;
+    color: black;
+    padding: 20px;
+    width: 100%;
+    font-size: small;
+    text-align: center;
+  }
+
+  #footer span {
+    color: #38B6FF;
+  }
+
+  #footer a {
+    text-decoration: none;
+  }
+
+  #footer a:hover {
+    text-decoration: underline;
+    color: #38B6FF;
+  }
 /*
 -------------------
     NAVBAR
@@ -23,7 +67,6 @@ body {
     align-items: center;
     background-color: white;
     color: black;
-   /* border-top: #38B6FF solid 10px; */
     box-shadow: -4px -3px 5px 5px rgba(0,0,0,0.35);
 }
 
@@ -58,4 +101,24 @@ body {
 
 .brand-title {
     margin: 1em 5em 1em 1em;
+}
+
+
+/*
+-------------------
+    RANDOM
+-------------------
+*/
+
+h1 {
+    color: black;
+}
+
+#home-page h3 {
+    color: #38B6FF;
+}
+
+#home-page {
+    height: 100vh;
+    width: 100%;
 }
