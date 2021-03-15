@@ -4,7 +4,7 @@
   "description": "=======\r #### We are using CSS, HTML and Javascript for the Front-End, along with the Flask micro-framework.",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d"
+    "deploy": "gh-pages -d src"
   },
   "repository": {
     "type": "git",
