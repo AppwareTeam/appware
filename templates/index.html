@@ -1,12 +1,15 @@
 {% extends "layout.html" %}
 
 {% block content %}
-<div class="content">
-    <section id="home-page">
-        <h1>At Appware, we work hard to bring you top quality products</h1>
-        <h3>We offer our services in Python, HTML, CSS, and more for all of you needs. 
-            Whether it be a simple discord bot or a full fledged website, we'll get it done.</h3>
-        <h4>- The Appware Team</h4>
-    </section>
-</div>
+    <div class="content">
+        <div id="home-page">
+            <h1>At Appware, we work hard to bring you top quality products.</h1>
+            <h3>We offer our services in Python, HTML, CSS, and more for all of you needs. 
+                Whether it be a simple discord bot or <br> a full fledged website, we'll get it done.</h3>
+            <h4>- The Appware Team</h4>
+        </div>
+        <div class="img-fluid">
+            <img src="{{ url_for('static', filename='assets/home-page-img.png') }}" width="" alt="">
+        </div>
+    </div>
 {% endblock content %}

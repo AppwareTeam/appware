@@ -189,6 +189,7 @@ html, body {
 h1 {
     color: #175a81;
     padding: .5em;
+    font-size: xxx-large;
 }
 
 h3 {
@@ -210,22 +211,21 @@ h4 {
 .content {
     height: 100vh;
     margin-top: 10rem;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .content #home-page {
     display: flex;
-    text-align: center;
-    flex-wrap: wrap;
-    background-color: #f3fcff;
-    margin: auto;
-    width: 50%;
-    padding: 2em;
-    box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.35);
+    flex-direction: column;
+    position: absolute;
+    left: 5rem;
+    width: 100%;
 }
 
-@media (max-width: 815px) {
-    .content #home-page {
-        text-align: center;
-        justify-content: center;
-    }
+.content .img-fluid {
+    position: absolute;
+    margin-top: 10rem;
+    justify-content: flex-end;
 }
+
