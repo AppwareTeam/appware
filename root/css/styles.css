@@ -14,9 +14,12 @@ html, body {
 
 a {
     text-decoration:none;
-    color:darkblue;
+    color:white;
 }
 
+a:hover {
+    color:darkblue;
+}
 
 .navbar {
     background: #131313;
@@ -466,4 +469,23 @@ a {
     #services button {
         top: 450px;
     }
+}
+
+/* videoediting.html */
+
+.service-3-img {
+    margin: 5%;
+
+}
+
+.service-3-description h2{
+    font-size: 2.5rem;
+    background-color: #38B6FF;
+    background-image: linear-gradient(to right, #38B6FF 30%, #5CE1E6 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 }
