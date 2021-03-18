@@ -476,10 +476,12 @@ a:hover {
 .service-3 {
     display: flex;
     flex-direction: row;
+    text-align: left;
 }
 
 .service-3-img {
     margin: 5%;
+    text-align: start;
 }
 
 .service-3-box h1 {
@@ -516,4 +518,13 @@ a:hover {
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+}
+
+.service-3-description {
+    margin-right: 25%;
+}
+
+.service-3-title {
+    margin-right: 25%;
+    margin-top: 25%;
 }
