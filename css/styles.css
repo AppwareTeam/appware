@@ -308,6 +308,96 @@ html, body {
     }
 }
 
+
+/* About */ 
+
+#about {
+    background: #141414;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+
+#about h1 {
+    background-color: #38B6FF;
+    background-image: linear-gradient(to right, #38B6FF 0%, #5CE1E6 100%);
+    background-size: 100%;
+    margin: 2rem 0;
+    text-align: center;
+    font-size: 2.5rem;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -moz-background-clip: text;
+    z-index: 10;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 90vh;
+    background-color: #141414;
+    z-index: 1;
+    width: 100%;
+    max-width: 1400px;
+    padding: 0 20px;
+}
+
+#about h2 {
+    background-color: #fff;
+    background-image: linear-gradient(to top, rgb(221, 221, 221) 30%, #fff 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.about-item {
+    margin: 3em;
+    background-color: #38B6FF;
+    background-image: linear-gradient(to right, #5CE1E6 0%, #38B6FF 100%);
+    height: 64%;
+    padding: 1em 1em;
+    text-align: center;
+    border: #050505 solid 2px;
+    border-radius: 15px; 
+}
+
+.about-item:hover {
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.025); 
+}
+
+.about-img {
+    background-color: #38B6FF;
+    background-image: linear-gradient(to right, #38B6FF 0%, #5CE1E6 100%);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.about-img:hover {
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.025);
+}
+
+@media (max-width: 900px) {
+    .about-container {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-self: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90vh;
+    }
+}
+
 /* Services */
 
 #services {
@@ -327,6 +417,7 @@ html, body {
     -webkit-background-clip: text;
     background-clip: text;
     -moz-background-clip: text;
+    z-index: 10;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 }
